@@ -55,6 +55,7 @@ a {
 
 img {
   width: 100%;
+  display: flex;
 }
 
 nav {
@@ -88,4 +89,10 @@ nav {
 
 .link a:hover {
   color: var(--text-dark);
+}
+
+.header__container .section__header {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 4rem;
 }
