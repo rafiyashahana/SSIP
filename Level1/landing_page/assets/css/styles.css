@@ -279,3 +279,31 @@ nav {
   transform: translate(calc(-50% + 9rem), calc(-50% + 5rem));
   z-index: 1;
 }
+
+.subscribe {
+  background-color: var(--extra-light);
+}
+
+.subscribe__container {
+  max-width: 500px;
+  text-align: center;
+}
+
+.subscribe__form {
+  margin-top: 2rem;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--white);
+  border-radius: 2rem;
+}
+
+.subscribe__form input {
+  width: 100%;
+  padding: 0 1rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: var(--text-dark);
+}
